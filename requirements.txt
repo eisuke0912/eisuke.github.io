@@ -5,3 +5,5 @@ plotly
 # needed for plotly
 nbformat
 statsmodels
+
+jupyter-book
