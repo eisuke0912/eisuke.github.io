@@ -1,5 +1,5 @@
 name: deploy-book
-# test comment
+# test
 on:
   # Trigger the workflow on push to main branch
   push:
