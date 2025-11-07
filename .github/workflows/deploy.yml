@@ -27,7 +27,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v6
         with:
-          python-version: "3.13"
+          python-version: "3.11"
           cache: pip # Implicitly uses requirements.txt for cache key
 
       - name: Install dependencies
@@ -44,12 +44,8 @@ jobs:
           key: jupyter-book-cache-${{ hashFiles('requirements.txt') }}
 
       # Build the book
-      # Build the book
       - name: Build the book
         run: |
-          echo "--- 現在のフォルダのファイル一覧 ---"
-          ls -l
-          echo "--- ビルド開始 ---"
           jupyter-book build .
 
       # https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#publishing-with-a-custom-github-actions-workflow
