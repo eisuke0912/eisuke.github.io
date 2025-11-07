@@ -6,4 +6,5 @@ plotly
 nbformat
 statsmodels
 
-jupyter-book
+jupyter-book==1.*
+jsonschema
