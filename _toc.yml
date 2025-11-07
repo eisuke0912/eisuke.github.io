@@ -2,3 +2,4 @@ format: jb-book
 root: index.md
 chapters:
   - file: lecture_16_example.ipynb
+  - file: project 1.ipynb
