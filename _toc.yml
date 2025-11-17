@@ -3,3 +3,4 @@ root: index.md
 chapters:
   - file: lecture_16_example.ipynb
   - file: project 1.ipynb
+  - file: project 2.ipynb
