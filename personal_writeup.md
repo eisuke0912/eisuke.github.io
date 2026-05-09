@@ -1,10 +1,10 @@
-# The introduction of Energy Market Dashboard: Visualizing How Electricity Prices Move in New York
+# The Energy Market Dashboard: Visualizing How Electricity Prices Move in New York
  
 **App:** https://advanced-computing-dancing-cactus-streamlit-app-birdi8.streamlit.app/market_analysis<br>
 **Github repository:** https://github.com/advanced-computing/dancing-cactus<br>
 **Team:** Eisuke, Chenyi
 
-This page explain the dashboard what we created in the class.
+This page explains the dashboard we created in class.
 
 ## What we built
  
@@ -22,6 +22,7 @@ Early on we assumed the dashboard would mostly show a clean correlation between 
 ![A scatter plot of load vs. LBMP](images/scatter_plot.png)
 3. **A dual-axis time series of LBMP and Henry Hub gas prices** shows that fuel costs — the other obvious explanatory variable — also fail to account for the spikes, pointing toward structural factors like transmission congestion and the local generation mix.
 ![A dual-axis time series of LBMP and Henry Hub gas prices](images/comparison_chart.png)
+
 The dashboard is not meant to give a single answer. It walks a policymaker from "demand drives price" to "price is shaped by *where* demand occurs within a constrained grid."
  
  
@@ -29,7 +30,7 @@ The dashboard is not meant to give a single answer. It walks a policymaker from 
  
 The dashboard is a Streamlit front-end backed by an automated BigQuery pipeline:
 ![System Architecture](images/system_architecture.png)
-
+NYISO and Henry Hub data are pulled by Python scripts — one for the initial backfill, one for daily incremental updates — and orchestrated by a GitHub Actions cron job. Streamlit reads from BigQuery with caching applied to keep interactions fast.
  
 ## What I learned
  
