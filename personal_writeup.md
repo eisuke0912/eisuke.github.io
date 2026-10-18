@@ -1,10 +1,10 @@
 # The Energy Market Dashboard: Visualizing How Electricity Prices Move in New York
  
-**App:** https://advanced-computing-dancing-cactus-streamlit-app-birdi8.streamlit.app/market_analysis<br>
-**Github repository:** https://github.com/advanced-computing/dancing-cactus<br>
+**App:** https://advanced-computing-dancing-cactus-streamlit-app-birdi8.streamlit.app/market_analysis (the live app is currently offline; the figures below show its main views)<br>
+**GitHub repository:** https://github.com/advanced-computing/dancing-cactus<br>
 **Team:** Eisuke, Chenyi
 
-This page explains the dashboard we created in class.
+This page explains the dashboard we built for the Advanced Computing for Policy course at Columbia SIPA.
 
 ## What we built
  
