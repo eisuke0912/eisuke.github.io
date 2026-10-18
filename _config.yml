@@ -1,7 +1,8 @@
 # https://jupyterbook.org/customize/config.html
 
 title: "Eisuke's Portfolio"
-author: Eisuke
+author: Eisuke Kobayashi
+copyright: "2026"
 
 # https://jupyterbook.org/en/stable/structure/configure.html#disable-building-files-that-arent-in-the-table-of-contents
 only_build_toc_files: true
