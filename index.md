@@ -2,7 +2,7 @@
 
 I am a Master of Public Administration candidate at Columbia University's School of International and Public Affairs (SIPA), concentrating in Data Science for Policy with a minor in International Finance and Economic Policy. Before SIPA, I spent seven years at Japan's Ministry of Economy, Trade and Industry (METI), working on human resources, industrial, and energy policy.
 
-My interests are regional economic development, small business policy, innovation, and how AI and demographic change reshape labor markets.
+My interests include population aging, industrial and small business policy, regional economic development, innovation, and human capital policy.
 
 ## Projects
 
